@@ -35,6 +35,10 @@ body {
     z-index: 1000;
 }
 
+.border-bottom-dashed {
+    border-bottom-style: dashed !important;
+}
+
 @media (max-width: 385px) {
     .pn-header-follow-us.pn-pc {
         display: none;
