@@ -1,0 +1,19 @@
+
+body {
+    font-size: .938em;
+}
+
+#home-section {
+    height: 4em;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.25);
+    position: relative;
+    z-index: 101;
+    border-bottom: 0 !important;
+    display: flex;
+    align-items: center;
+    background-color: #333;
+}
+
+#pn-top-logo {
+    height: 2.667em;
+}
