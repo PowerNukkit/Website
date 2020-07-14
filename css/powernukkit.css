@@ -14,6 +14,39 @@ body {
     background-color: #333;
 }
 
-#pn-top-logo {
+#pn-top-gh-logo {
     height: 2.667em;
+}
+
+#site-logo {
+    height: 2em;
+}
+
+.pn-header-follow-us.pn-pc {
+    position: absolute;
+    margin-left: 4em;
+    z-index: 1000;
+}
+
+.pn-header-follow-us.pn-mobile {
+    display: none;
+    position: absolute;
+    margin-left: 4em;
+    z-index: 1000;
+}
+
+@media (max-width: 385px) {
+    .pn-header-follow-us.pn-pc {
+        display: none;
+    }
+
+    .pn-header-follow-us.pn-mobile {
+        display: block;
+    }
+}
+
+@media (max-width: 295px) {
+    .pn-header-follow-us.pn-mobile {
+        display: none;
+    }
 }
