@@ -1,4 +1,3 @@
-
 body {
     font-size: .938em;
 }
@@ -53,4 +52,21 @@ body {
     .pn-header-follow-us.pn-mobile {
         display: none;
     }
+}
+
+.site-footer .endorsement {
+    background-color: #467596;
+}
+.site-footer .endorsement p {
+    color: #CCCCCC;
+}
+.site-footer .endorsement a {
+    color: #EEEEEE;
+}
+.site-footer .endorsement a:hover {
+    color: #32dbc6;
+}
+
+.site-footer .dark-footer {
+    background: #333333;
 }
