@@ -1,0 +1,34 @@
+<!--
+  To replace the url use control + h and replace all ocurrences of "https://github.com/GameModsBr/PowerNukkit/actions?query=branch%3Ableeding++" to the new url!
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>PowerNukkit - Snapshot</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <meta property="og:locale" content="en"/>
+      <meta property="og:url" content="https://powernukkit.org/snapshot"/>
+      <meta property="og:title" content="PowerNukkit - Snapshot"/>
+      <meta property="og:site_name" content="PowerNukkit - Snapshot"/>
+      <meta property="og:description" content="PowerNukkit Snapshot page"/>
+      <meta property="og:image" content="https://powernukkit.org/assets/images/powernukkit-logo.png"/>
+      <meta property="og:image:type" content="image/png"/>
+      <meta property="og:image:width" content="1546"/>
+      <meta property="og:image:height" content="733"/>
+      <meta name="twitter:image:src" content="https://powernukkit.org/assets/images/powernukkit-icon-logo.png" />
+      <meta name="twitter:site" content="@PowerNukkit" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:title" content="PowerNukkit - Snapshot" />
+      <meta name="twitter:description" content="PowerNukkit Snapshot page" />
+
+      <script>
+        window.location = 'https://github.com/GameModsBr/PowerNukkit/actions?query=branch%3Ableeding++';
+      </script>
+    </head>
+    <body>
+        <p>Thanks for being interested in downloading the snapshot of PowerNukkit!</p>
+        <p>If you has not been automatically redirected to the snapshot page, try accessing this url: <a href="https://github.com/GameModsBr/PowerNukkit/actions?query=branch%3Ableeding++">https://github.com/GameModsBr/PowerNukkit/actions?query=branch%3Ableeding++</a></p>
+    </body>
+</html>

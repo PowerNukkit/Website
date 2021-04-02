@@ -1,0 +1,34 @@
+<!--
+  To replace the url use control + h and replace all ocurrences of "https://discord.gg/8MxZ6eq" to the new url!
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PowerNukkit - Discord</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <meta property="og:locale" content="en"/>
+        <meta property="og:url" content="https://powernukkit.org/discord"/>
+        <meta property="og:title" content="PowerNukkit - Discord"/>
+        <meta property="og:site_name" content="PowerNukkit - Discord"/>
+        <meta property="og:description" content="PowerNukkit official Discord community"/>
+        <meta property="og:image" content="https://powernukkit.org/assets/images/powernukkit-logo.png"/>
+        <meta property="og:image:type" content="image/png"/>
+        <meta property="og:image:width" content="1546"/>
+        <meta property="og:image:height" content="733"/>
+        <meta name="twitter:image:src" content="https://powernukkit.org/assets/images/powernukkit-icon-logo.png" />
+        <meta name="twitter:site" content="@PowerNukkit" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="PowerNukkit - Discord" />
+        <meta name="twitter:description" content="PowerNukkit official Discord community" />
+
+    </head>
+    <body>
+        <p>Thanks for being interested in us Discord community</p>
+        <p>If you has not been automatically redirected to the discord page, try accessing this url: <a href="https://discord.gg/8MxZ6eq">https://discord.gg/8MxZ6eq</a></p>
+    </body>
+    <script>
+        window.location = 'https://discord.gg/8MxZ6eq';
+    </script>
+</html>

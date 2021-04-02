@@ -1788,7 +1788,46 @@ h1, h2, h3, h4, h5,
 .post-meta {
   font-size: 13px;
   text-transform: uppercase;
-  letter-spacing: .2em; }
-  .post-meta a {
-    color: #fff;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+  letter-spacing: .2em; 
+}
+.post-meta a {
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
+}
+
+/* Minor alterations: */
+
+html {
+  overflow-x: hidden;
+}
+
+.site-blocks-cover .imageBackground {
+  position: absolute;
+  width: 100vw;
+  height: 200vh;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.site-blocks-cover .imageBackground img {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 115vh;
+  transform: translateX(-50%);
+  margin-left: 50vw;
+  object-fit: cover;
+  z-index: -2;
+  pointer-events: none;
+}
+
+.site-section {
+  background-color: var(--white);
+}
+
+@media only screen and (max-width: 800px) {
+  .site-blocks-cover .imageBackgroundCutter {
+    top: 117vh;
+  }
+}
