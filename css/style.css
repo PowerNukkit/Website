@@ -1814,12 +1814,13 @@ html {
   position: sticky;
   top: 0;
   width: 100vw;
-  height: 115vh;
+  height: 100vh;
   transform: translateX(-50%);
-  margin-left: 50vw;
+  margin-left: 49.7vw;
   object-fit: cover;
   z-index: -2;
   pointer-events: none;
+  filter: brightness(80%);
 }
 
 .site-section {
