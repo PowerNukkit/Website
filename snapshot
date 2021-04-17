@@ -23,6 +23,7 @@
       <meta name="twitter:title" content="PowerNukkit - Snapshot" />
       <meta name="twitter:description" content="PowerNukkit Snapshot page" />
 
+      <meta http-equiv="refresh" content="0;url=https://github.com/GameModsBr/PowerNukkit/actions?query=branch%3Ableeding++">
       <script>
         window.location = 'https://github.com/GameModsBr/PowerNukkit/actions?query=branch%3Ableeding++';
       </script>

@@ -28,6 +28,8 @@ redirect_to:
       <meta name="twitter:title" content="PowerNukkit - Download" />
       <meta name="twitter:description" content="PowerNukkit Download page" />
       
+      <meta http-equiv="refresh" content="0;url=https://discuss.powernukkit.org/c/announcements/releases/10">
+
       <script>
         window.location = 'https://discuss.powernukkit.org/c/announcements/releases/10';
       </script>

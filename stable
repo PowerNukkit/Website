@@ -23,6 +23,7 @@
       <meta name="twitter:title" content="PowerNukkit - Stable" />
       <meta name="twitter:description" content="PowerNukkit Stable page" />
 
+      <meta http-equiv="refresh" content="0;url=https://discuss.powernukkit.org/c/announcements/releases/10">
       <script>
         window.location = 'https://discuss.powernukkit.org/c/announcements/releases/10';
       </script>

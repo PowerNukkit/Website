@@ -23,6 +23,8 @@
       <meta name="twitter:title" content="PowerNukkit - GitHub" />
       <meta name="twitter:description" content="PowerNukkit GitHub page" />
 
+      <meta http-equiv="refresh" content="0;url=https://github.com/PowerNukkit">
+
       <script>
         window.location = 'https://github.com/PowerNukkit';
       </script>

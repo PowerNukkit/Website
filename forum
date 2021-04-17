@@ -23,6 +23,8 @@
       <meta name="twitter:title" content="PowerNukkit - Discuss" />
       <meta name="twitter:description" content="PowerNukkit discuss page" />
 
+      <meta http-equiv="refresh" content="0;url=https://discuss.powernukkit.org">
+
       <script>
         window.location = 'https://discuss.powernukkit.org';
       </script>
