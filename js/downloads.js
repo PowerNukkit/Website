@@ -159,7 +159,7 @@ function buildSnapshotArtefactUrl(data, artefactId) {
   let dt = new Date(data.releaseTime);
   let snapshotCode = dt.getUTCFullYear().toString().padStart(4, "0") +
       (dt.getUTCMonth() + 1).toString().padStart(2, "0") +
-      dt.getUTCDay().toString().padStart(2, "0") +
+      dt.getUTCDate().toString().padStart(2, "0") +
       "." +
       dt.getUTCHours().toString().padStart(2, "0") +
       dt.getUTCMinutes().toString().padStart(2, "0") +
