@@ -298,13 +298,13 @@
                   <div class="col text-left align-bottom mt-auto mb-auto text-nowrap pn-version">1.5.2.1-PN</div>
                   <div class="col text-left align-bottom mt-auto mb-auto text-nowrap"><span class="release-date">2021-12-21</span> <span class="d-none d-sm-inline release-time">19:26</span></div>
                   <div class="col text-nowrap">
-                    <a class="btn btn-primary download-jar-button" href="#" data-toggle="tooltip" title="PowerNukkit 1.5.2.1-PN for Minecraft Bedrock Edition 1.17.40">
+                    <a class="btn btn-primary download-jar-button" href="#" target="_blank" data-toggle="tooltip" title="PowerNukkit 1.5.2.1-PN for Minecraft Bedrock Edition 1.17.40">
                       <span class="icon-download" aria-hidden="true"></span> <span class="minecraft-version">1.17.40</span>
                     </a>
-                    <a class="btn btn-outline-secondary border-0 download-src-button" href="#" data-toggle="tooltip" title="Browse or download the source code of PowerNukkit 1.5.2.1-PN">
+                    <a class="btn btn-outline-secondary border-0 download-src-button" href="#" target="_blank" data-toggle="tooltip" title="Browse or download the source code of PowerNukkit 1.5.2.1-PN">
                       <span class="icon-code" aria-hidden="true"></span>
                     </a>
-                    <a class="btn btn-outline-secondary border-0 read-docs-button" href="#" data-toggle="tooltip" title="Browse the JavaDocs and JDiffs of the PowerNukkit 1.5.2.1-PN">
+                    <a class="btn btn-outline-secondary border-0 read-docs-button" href="#" target="_blank" data-toggle="tooltip" title="Browse the JavaDocs and JDiffs of the PowerNukkit 1.5.2.1-PN">
                       <span class="icon-book" aria-hidden="true"></span>
                     </a>
                   </div>
@@ -525,14 +525,15 @@
                 <h3>Pterodactyl Eggs</h3>
                 <p>If you are manager of a Pterodactyl&nbsp; control panel,&nbsp; you can import our egg, and it will manage the PowerNukkit installation and updates by itself.</p>
                 <p>The eggs are provided in two flavors:</p>
-                <iframe name="downloadframe" class="d-none"></iframe>
+                <iframe name="downloadframe" id="downloadframe" class="d-none" src="about:blank"></iframe>
+                <script>document.getElementById("downloadframe").src = "about:blank"; // Prevents from re-downloading when returning to the page using the back button.</script>
                 <div class="row pt-1 pb-1 bg-light">
                   <div class="col text-left align-bottom mt-auto mb-auto text-nowrap pn-version">Auto-Update on <strong>Restart</strong></div>
                   <div class="col text-nowrap">
                     <a class="btn btn-primary download-jar-button" href="https://powernukkit.github.io/DownGit/index.html#/home?directFile=1&url=https://github.com/PowerNukkit/PowerNukkit-Pterodactyl-Egg/blob/master/update-on-server-restart/powernukkit-update-on-restart.json" target="downloadframe" data-toggle="tooltip" title="This will automatically update everytime the server restart, ít's done by downloading an updated Docker image from our DockerHub. The update won't change files in the container, the JAR is already included in the Docker image.">
                       <span class="icon-download" aria-hidden="true"></span> <span class="minecraft-version">Download Egg</span>
                     </a>
-                    <a class="btn btn-outline-secondary border-0 download-src-button" href="https://github.com/PowerNukkit/PowerNukkit-Pterodactyl-Egg/blob/master/update-on-server-restart/powernukkit-update-on-restart.json" data-toggle="tooltip" title="Source code of this Pterodactyl Egg">
+                    <a class="btn btn-outline-secondary border-0 download-src-button" href="https://github.com/PowerNukkit/PowerNukkit-Pterodactyl-Egg/blob/master/update-on-server-restart/powernukkit-update-on-restart.json" target="_blank" data-toggle="tooltip" title="Source code of this Pterodactyl Egg">
                       <span class="icon-code" aria-hidden="true"></span>
                     </a>
                   </div>
@@ -543,7 +544,7 @@
                     <a class="btn btn-primary download-jar-button" href="https://powernukkit.github.io/DownGit/index.html#/home?directFile=1&url=https://github.com/PowerNukkit/PowerNukkit-Pterodactyl-Egg/blob/master/update-on-reinstall/powernukkit-update-on-reinstall-egg.json" target="downloadframe" data-toggle="tooltip" title="This will automatically update only when you manually click on the reinstall button on the control panel, this can be done both by admins and users, all your data will be kept, the install script will change only the serverJAR file.">
                       <span class="icon-download" aria-hidden="true"></span> <span class="minecraft-version">Download Egg</span>
                     </a>
-                    <a class="btn btn-outline-secondary border-0 download-src-button" href="https://github.com/PowerNukkit/PowerNukkit-Pterodactyl-Egg/tree/master/update-on-reinstall" data-toggle="tooltip" title="Source code of this Pterodactyl Egg">
+                    <a class="btn btn-outline-secondary border-0 download-src-button" href="https://github.com/PowerNukkit/PowerNukkit-Pterodactyl-Egg/tree/master/update-on-reinstall" target="_blank" data-toggle="tooltip" title="Source code of this Pterodactyl Egg">
                       <span class="icon-code" aria-hidden="true"></span>
                     </a>
                   </div>
